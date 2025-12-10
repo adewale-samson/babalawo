@@ -7,8 +7,8 @@ const Signup = () => {
     const navigate = useNavigate()
     const [loading, setLoading] = useState(false)
     const formData = {
-	email: "ola@gmail.com",
-    password: "password1234"
+	email: "ola@gmailiya.com",
+    password: "oyinade"
 }
 
 const handleSubmit = (e) => {
@@ -30,7 +30,7 @@ const handleSubmit = (e) => {
   return (
     <div>
         {loading && <h1>Loading...</h1>}
-        <h2>Sign Up</h2>
+        <h2>Sign Up Form</h2>
         <form onSubmit={handleSubmit}>
 
             <button>Sign up</button>
